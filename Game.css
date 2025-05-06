@@ -1,0 +1,95 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+body {
+    background-color: rgb(161, 242, 242);
+}
+h1 {
+    height : 5rem;
+    width : auto;
+    background-color: rgb(6, 6, 54);
+    color : white;
+    font-family: monospace;
+    text-align: center;
+    line-height: 5rem;
+}
+.choices {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+img {
+    margin-top: 10px;
+    height: 180px;
+    width : 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border : black solid 2px;
+}
+.rock {
+    height : 200px;
+    width : 200px;
+    border-radius: 55%;
+    text-align: center;
+}
+.paper {
+    height : 200px;
+    width : 200px;
+    border-radius: 55%;
+    text-align: center;
+}
+.scissors {
+    height : 200px;
+    width : 200px;
+    border-radius: 55%;
+    text-align: center;
+}
+.rock:hover {
+    background-color: rgb(48, 21, 73);
+    opacity : 0.5;
+}
+.paper:hover {
+    background-color: rgb(48, 21, 73);
+    opacity : 0.5;
+}
+.scissors:hover {
+    background-color: rgb(48, 21, 73);
+    opacity : 0.5;
+}
+.scoreboard {
+    display : flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+#comp , #user {
+    font-size: xx-large;
+    color : black;
+    font-family: monospace;
+    margin : 20px;
+}
+.num {
+    color : black;
+    font-size: xxx-large;
+}
+.msg-container {
+    margin-top: 20px;
+    display : flex;
+    height : 100px;
+    width : auto;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    line-height: 6rem;
+}
+#msg {
+    border : black solid 2px;
+    border-radius: 15%;
+    height : 100px;
+    width : 200px;
+    background-color: aliceblue;
+    font-size: x-large;
+    font-family: fantasy;
+    font-weight: lighter;
+}
